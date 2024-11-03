@@ -1,6 +1,0 @@
-function FindProxyForURL(url, host) {
-    if(url.indexOf("sgameicon.ecology.smoba.qq.com") || url.indexOf("thirdqq.qlogo.cn")) {
-        return "SOCKS 1.1.1.1:1";
-    }
-    return "DIECT;";
-}
